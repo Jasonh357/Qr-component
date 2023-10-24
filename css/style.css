@@ -1,0 +1,49 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background: hsl(212, 45%, 89%);
+  
+}
+.container_qr{
+    width: 100%; /* Asegura que la div se extienda al ancho completo de su contenedor */
+    text-align: center; /* Centra horizontalmente el contenido */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido en navegadores modernos */
+    align-items: center; /* Centra verticalmente el contenido en navegadores modernos */
+    height: 100vh; 
+    
+}
+.contenido{
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    
+}
+.img_qr{
+    width: 200px;
+     
+}
+
+.titulo{
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+.subtitulo{
+    color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    text-align: center;
+}
+
+@media (min-width: 320px ) and (max-width: 425px) {
+    .contenido{
+     width: auto;
+     margin: 0 90px;
+    }
+}
